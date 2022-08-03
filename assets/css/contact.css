@@ -1,0 +1,50 @@
+form {
+    font-size: 1rem;
+}
+form label {
+   display: block;
+   margin: 0 auto;
+   width: 50%;
+}
+
+input,textarea,input:focus,
+textarea:focus{
+    width: 100%;
+    padding: 1rem;
+    color: var(--black2);
+    border: none;
+    margin: 1rem 0 2rem;
+    /* background: linear-gradient(var(--primary),var(--primary-dark)); */
+    background: rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+textarea{
+    resize: none;
+}
+
+form button{
+    color: var(--white);
+    background-color: var(--secondary);
+    border: none;
+    border-radius: 15px;
+    padding: .7rem 1rem;
+    margin: 2rem;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+form button:hover{
+    background-color: var(--secondary-dark);
+}
+#social-media a {
+    text-decoration: none;
+}
+#social-media img{
+    border-radius: 10rem;
+    background-color:var(--white) ;
+    transition: all ease .3s;
+    margin: 1rem;
+}
+#social-media img:hover{
+    background-color: #0077b5;
+}
